@@ -18,7 +18,7 @@ def index():
 @app.route("/predictdata", methods=['GET', 'POST'])
 def predict_datapoints():
     result = None
-    if request.method == 'POST':
+    if request.method == 'POST': 
 
         try:
             # Get form data
